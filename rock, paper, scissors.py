@@ -30,6 +30,9 @@ while True:
         print("You Won!")
         user_wins += 1
 
+    elif user_input == computer_pick:
+        print("TIE")
+
     else:
         print("You lost!")
         computer_wins += 1
